@@ -1,0 +1,27 @@
+.info-container{
+    text-align: center;
+   
+}
+.info-container>div{
+    display: flex;
+    max-width: 394px;
+    padding: 5px;
+    border: 1px solid #0000003b;
+    margin: auto;
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+.info-container>:nth-child(2){
+    justify-content: space-around;
+}
+.info-container>:nth-child(2)>button{
+    width: 104px;
+    height: 39px;
+    font-size: 16px;
+    color: white;
+    background: #1e1d1df7;
+    border-radius: 4px;
+}
+.dis-btn{
+    background: #535151c9 !important;
+}
